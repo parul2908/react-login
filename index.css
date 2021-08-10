@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Lobster Two", cursive;
+}
+body {
+  background: rgb(235, 231, 231);
+  position: absolute;
+}
+.Header {
+  background-color: #21d5d5;
+  margin: auto -16px;
+  padding: 12px 32px;
+  box-shadow: 0 0 10x 0 rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 800px;
+  height: 75px;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: large;
+  color: seashell;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Header button {
+  position: absolute;
+  width: 260px;
+  height: 25px;
+  color: seashell;
+  background: #21d5d5;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  size: 50px;
+  /* border-radius: 10px; */
+  left: 240px;
+  font-family: "Lobster Two", cursive;
+  border: none;
+}
+
+h1 {
+  position: center;
+  background: center;
+  font-family: "Lobster Two", cursive;
+}
+h2 {
+  padding: 30px;
+  color: #30a6a6;
+  font-family: "Lobster Two", cursive;
+  font-size: x-large;
+}
+
+.Header form {
+  padding: 5px 25px;
+  box-sizing: border-box;
+  position: relative;
+  top: 10%;
+  color: #38a190;
+  border-radius: 10px;
+}
+form .txt_field {
+  position: relative;
+  margin: 10px 0;
+}
+.txt_field input {
+  width: 180px;
+  padding: 0 5px;
+  height: 25px;
+  /* border-radius: 0px; */
+  border: none;
+  left: auto;
+  outline: none;
+  color: #30a6a6;
+  font-family: "Lobster Two", cursive;
+}
+.txt_field label {
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+}
+.pass {
+  margin: -5px 0 20px 5px;
+  color: #5ec2b1;
+  cursor: pointer;
+  font-family: "Lobster Two", cursive;
+}
+
+p {
+  font-size: xx-small;
+  color: #1d7878;
+}
+
+.name {
+  padding: 0 0 10px 0;
+  border-radius: 10px;
+}
+
+.pass {
+  padding: 5 0 0px 0;
+  text-align: right;
+}
+.Link {
+  text-align: start;
+}
+form .text_field {
+  position: relative;
+  margin: 5px 0;
+}
+.text_field input {
+  width: 180px;
+  padding: 0 5px;
+  height: 25px;
+  border: none;
+  outline: none;
+  color: #30a6a6;
+  font-family: "Lobster Two", cursive;
+}
+.text_field label {
+    font-family: "Lobster Two", cursive;
+    text-align: center;
+    font-weight: 700;
+  }
+h4 {
+  font-family: "Lobster Two", cursive;
+  text-align: left;
+  color: #30a6a6;
+  padding: 2px;
+}
+ul {
+  color: #30a6a6;
+  padding-left: 10px;
+}
+hr{
+   background: #e2e7e6;
+   height: 2px;
+   padding: 1px;
+}
